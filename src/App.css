@@ -1,0 +1,14 @@
+div {
+  background-color: rgb(76, 76, 216);
+  margin: auto;
+}
+
+.name {
+  font-size: 30px;
+  margin: 0;
+  color: white;
+}
+
+.furigana {
+  margin: 0;
+}
