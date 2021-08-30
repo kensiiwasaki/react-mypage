@@ -32,3 +32,7 @@ div {
   padding: 1em;
   background: #fff;
 }
+
+button {
+  cursor: pointer;
+}

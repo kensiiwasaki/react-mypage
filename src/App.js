@@ -12,8 +12,8 @@ function App() {
         <p className="furigana">(iwasaki kenshi)</p>
       </div>
       <div>
-        <button>Click</button>
-        <Modal show={show}/>
+        <button onClick={() => setShow(true)}>Click</button>
+        <Modal show={show} setShow={setShow} content="ここから変更可能" />
       </div>
     </header>
   );
