@@ -8,6 +8,9 @@ function App() {
   const [show, setShow] = useState(false)
   return (
     <body>
+      <header>
+        <p className="header">岩崎拳志のマイページ</p>
+      </header>
       <div>
         <img src={Icon} alt="アイコン" className="icon" />
         <p className="name">岩崎 拳志</p>
