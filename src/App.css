@@ -7,13 +7,30 @@ div {
   margin: auto;
 }
 
+.icon {
+  width: 260px;
+  height: 200px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 .name {
   font-size: 30px;
   margin: 0;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .furigana {
   margin: 0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 #overlay {

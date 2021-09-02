@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import Modal from './components/modal'
 import { useState } from 'react';
+import Icon from './IMG_0313.jpg';
 
 function App() {
   const [show, setShow] = useState(false)
   return (
     <body>
       <div>
+        <img src={Icon} alt="アイコン" className="icon" />
         <p className="name">岩崎 拳志</p>
         <p className="furigana">(iwasaki kenshi)</p>
       </div>
