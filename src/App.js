@@ -18,7 +18,7 @@ function App() {
       </div>
       <div>
         <button onClick={() => setShow(true)}>Click</button>
-        <Modal show={show} setShow={setShow} content="ここから変更可能" />
+        <Modal show={show} setShow={setShow} content="こんにちは" />
       </div>
     </body>
   );
