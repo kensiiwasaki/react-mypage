@@ -20,6 +20,9 @@ function App() {
         <button className="btn" onClick={() => setShow(true)}>Click</button>
         <Modal show={show} setShow={setShow} content="(ここから変更可能)" />
       </div>
+      <footer>
+        <a className="link" href="https://google.com">instagram</a>
+      </footer>
     </body>
   );
 }
