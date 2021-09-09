@@ -63,4 +63,8 @@ body {
 
 .link {
   cursor: pointer;
+  background-color: chocolate;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
 }
