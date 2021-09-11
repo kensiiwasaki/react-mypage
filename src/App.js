@@ -22,7 +22,6 @@ function App() {
       </div>
       <footer>
         <a className="link" href="https://google.com">instagram</a>
-        {/* リンク後で追加 */}
       </footer>
     </body>
   );
