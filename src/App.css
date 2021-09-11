@@ -13,13 +13,18 @@ body {
 }
 
 .icon {
-  width: 260px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   align-items: center;
   display: flex;
   justify-content: center;
   margin: auto;
+  opacity: 0;
+  animation-name: icon;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 }
 
 .name {
@@ -72,7 +77,7 @@ footer {
   cursor: pointer;
   background-color: rgb(37, 95, 223);
   margin: 10px;
-  padding: 10px;
+  padding: 13px;
   align-items: center;
   display: flex;
   justify-content: center;

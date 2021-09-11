@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Modal from './components/modal'
 import { useState } from 'react';
-import Icon from './IMG_0313.jpg';
+import Icon from './IMG_2580.jpg';
 
 function App() {
   const [show, setShow] = useState(false)
