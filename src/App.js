@@ -22,6 +22,7 @@ function App() {
       </div>
       <footer>
         <a className="link" href="https://google.com">instagram</a>
+        <a className="link" href="https://google.cpm">Twitter</a>
       </footer>
     </body>
   );
