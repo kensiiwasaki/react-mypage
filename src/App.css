@@ -22,7 +22,7 @@ body {
   margin: auto;
   opacity: 0;
   animation-name: icon;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 @keyframes icon {
