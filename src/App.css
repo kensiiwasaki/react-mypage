@@ -43,7 +43,7 @@ body {
   align-items: center;
   margin-top: 20px;
   animation-name: name;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes name {
