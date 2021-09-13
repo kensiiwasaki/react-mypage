@@ -63,6 +63,9 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+  animation-name: furigana;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 #overlay {
