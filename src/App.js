@@ -16,7 +16,7 @@ function App() {
         <p className="name">岩崎 拳志</p>
         <p className="furigana">(iwasaki kenshi)</p>
       </div>
-      <div>
+      <div className="modal">
         <button className="btn" onClick={() => setShow(true)}>Click</button>
         <Modal show={show} setShow={setShow} content="(ここから変更可能)" />
       </div>

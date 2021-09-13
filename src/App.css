@@ -97,11 +97,17 @@ body {
   background: #fff;
 }
 
-.btn {
-  cursor: pointer;
-  align-items: center;
+.modal {
   display: flex;
   justify-content: center;
+  margin: 10px;
+  animation-name: btn;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.btn {
+  cursor: pointer;
 }
 
 footer {
