@@ -17,12 +17,12 @@ function App() {
         <p className="furigana">(iwasaki kenshi)</p>
       </div>
       <div className="modal">
-        <button className="btn" onClick={() => setShow(true)}>Click</button>
+        <button className="btn" onClick={() => setShow(true)}>プロフィール</button>
         <Modal show={show} setShow={setShow}  />
       </div>
       <footer>
-        <a className="link" href="https://google.com">instagram</a>
-        <a className="link" href="https://google.com">Twitter</a>
+        <a className="link" href="https://www.instagram.com/kenshidayoo">instagram</a>
+        <a className="link" href="https://github.com/kensiiwasaki">github</a>
       </footer>
     </body>
   );
