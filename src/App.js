@@ -10,7 +10,7 @@ function App() {
   return (
     <body>
       <header>
-        <p className="header">岩崎拳志のマイページ(練習)</p>
+        <p className="header">岩崎拳志のマイページ</p>
       </header>
       <div>
         <img src={Icon} alt="アイコン" className="icon" />
