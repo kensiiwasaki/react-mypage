@@ -3,6 +3,8 @@ import './App.css';
 import Modal from './components/modal'
 import { useState } from 'react';
 import Icon from './IMG_2580.jpg';
+import language from './components/language';
+import Language from './components/language';
 
 function App() {
   const [show, setShow] = useState(false)
@@ -19,6 +21,9 @@ function App() {
       <div className="modal">
         <button className="btn" onClick={() => setShow(true)}>プロフィール</button>
         <Modal show={show} setShow={setShow}  />
+      </div>
+      <div>
+        <Language />
       </div>
       <footer>
         <a className="link" href="https://www.instagram.com/kenshidayoo">instagram</a>

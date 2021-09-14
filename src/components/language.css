@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(155, 224, 224);
+    padding: 10px;
+    align-items: center;
+    animation-name: title;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes title {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    user-select: none;
+}
+
+li {
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+    animation-name: li;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes li {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
