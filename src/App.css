@@ -137,9 +137,22 @@ body {
 footer {
   padding: 10px;
   background-color: rgb(155, 224, 224);
+  animation-name: footer;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+}
+@keyframes footer {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
-.link {
+.link1, .link2 {
   color: rgb(241, 234, 225);
   font-size: 18px;
   cursor: pointer;
@@ -149,4 +162,36 @@ footer {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.link1 {
+  animation-name: link1;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+}
+@keyframes link1 {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.link2 {
+  animation-name: link2;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+}
+@keyframes link2 {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

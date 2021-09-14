@@ -3,7 +3,6 @@ import './App.css';
 import Modal from './components/modal'
 import { useState } from 'react';
 import Icon from './IMG_2580.jpg';
-import language from './components/language';
 import Language from './components/language';
 
 function App() {
@@ -26,8 +25,8 @@ function App() {
         <Language />
       </div>
       <footer>
-        <a className="link" href="https://www.instagram.com/kenshidayoo">instagram</a>
-        <a className="link" href="https://github.com/kensiiwasaki">github</a>
+        <a className="link1" href="https://www.instagram.com/kenshidayoo">instagram</a>
+        <a className="link2" href="https://github.com/kensiiwasaki">github</a>
       </footer>
     </body>
   );
