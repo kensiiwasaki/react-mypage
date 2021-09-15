@@ -16,6 +16,9 @@ function App() {
       </div>
       </div>
       <div>
+        <p className="profile">マイプロフィール</p>
+      </div>
+      <div>
         <img src={Icon} alt="アイコン" className="icon" />
         <p className="name">岩崎 拳志</p>
         <p className="furigana">(iwasaki kenshi)</p>
