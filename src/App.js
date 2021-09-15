@@ -21,7 +21,7 @@ function App() {
         <p className="furigana">(iwasaki kenshi)</p>
       </div>
       <div className="modal">
-        <button className="btn" onClick={() => setShow(true)}>プロフィール</button>
+        <button className="btn" onClick={() => setShow(true)}>more</button>
         <Modal show={show} setShow={setShow}  />
       </div>
       <div>
