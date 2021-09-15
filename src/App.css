@@ -1,6 +1,12 @@
 #home {
   background-image: url(./IMG_2589.jpg);
-  min-height: 100vh;
+  min-height: 50vh;
+}
+
+.page-header {
+  background-color: rgb(155, 224, 224);
+  padding: 10px;
+  margin: 0;
 }
 
 .big-bg {
@@ -13,9 +19,11 @@
   margin-top: 10%;
 }
 
-.header {
+.title {
   font-size: 1.125rem;
+  color: #fff;
   margin: 10px 0 42px;
+  padding-top: 70px;
 }
 
 body {

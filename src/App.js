@@ -12,7 +12,7 @@ function App() {
       <div id="home" className="big-bg">
         <header className="page-header wrapper">岩崎拳志のマイページ</header>
       <div className="home-content wrapper">
-        <p className="header">kenshi's photo library</p>
+        <p className="title">kenshi's photo library</p>
       </div>
       </div>
       <div>
