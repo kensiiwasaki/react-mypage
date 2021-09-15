@@ -1,29 +1,38 @@
 #home {
   background-image: url(./IMG_2589.jpg);
   min-height: 50vh;
+  animation-name: header;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
-
-.page-header {
-  background-color: rgb(155, 224, 224);
-  padding: 10px;
-  margin: 0;
+@keyframes header {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .big-bg {
   background-size: cover;
-  background-position: center top;
+  background-position: center;
 }
 
 .home-content {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
   font-size: 1.125rem;
   color: #fff;
   margin: 10px 0 42px;
-  padding-top: 70px;
+  padding-top: 120px;
   font-size: 30px;
   font-family: 'Lobster', cursive;
 }
@@ -37,6 +46,19 @@ body {
   background-color: rgb(155, 224, 224);
   padding: 10px;
   margin-top: 0;
+  animation-name: profile;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes profile {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .icon {
@@ -70,7 +92,7 @@ body {
   align-items: center;
   margin-top: 20px;
   animation-name: name;
-  animation-duration: 3s;
+  animation-duration: 2.5s;
   animation-fill-mode: forwards;
 }
 @keyframes name {
@@ -91,7 +113,7 @@ body {
   display: flex;
   justify-content: center;
   animation-name: furigana;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes furigana {
@@ -148,7 +170,7 @@ body {
   cursor: pointer;
   margin-bottom: 15px;
   animation-name: btn;
-  animation-duration: 5s;
+  animation-duration: 3.5s;
   animation-fill-mode: forwards;
 }
 @keyframes btn {
@@ -166,7 +188,7 @@ footer {
   padding: 10px;
   background-color: rgb(155, 224, 224);
   animation-name: footer;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
 }
 @keyframes footer {
@@ -194,7 +216,7 @@ footer {
 
 .link1 {
   animation-name: link1;
-  animation-duration: 8s;
+  animation-duration: 4.5s;
   animation-fill-mode: forwards;
 }
 @keyframes link1 {
@@ -210,7 +232,7 @@ footer {
 
 .link2 {
   animation-name: link2;
-  animation-duration: 9s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 @keyframes link2 {

@@ -10,7 +10,6 @@ function App() {
   return (
     <body>
       <div id="home" className="big-bg">
-        <header className="page-header wrapper">岩崎拳志のマイページ</header>
       <div className="home-content wrapper">
         <p className="title">kenshi's photo library</p>
       </div>

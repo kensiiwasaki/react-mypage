@@ -5,7 +5,7 @@ h1 {
     padding: 10px;
     align-items: center;
     animation-name: title;
-    animation-duration: 6s;
+    animation-duration: 4.5s;
     animation-fill-mode: forwards;
 }
 @keyframes title {
@@ -32,7 +32,7 @@ li {
     padding: 10px;
     font-weight: bold;
     animation-name: li;
-    animation-duration: 7s;
+    animation-duration: 4.5s;
     animation-fill-mode: forwards;
 }
 @keyframes li {
