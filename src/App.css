@@ -1,10 +1,21 @@
+#home {
+  background-image: url(./IMG_2589.jpg);
+  min-height: 100vh;
+}
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
 .header {
-  font-size: 16px;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 16px;
-  background-color: rgb(155, 224, 224);
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
 }
 
 body {

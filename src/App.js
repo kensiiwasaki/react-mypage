@@ -9,9 +9,12 @@ function App() {
   const [show, setShow] = useState(false)
   return (
     <body>
-      <header>
-        <p className="header">岩崎拳志のマイページ</p>
-      </header>
+      <div id="home" className="big-bg">
+        <header className="page-header wrapper">岩崎拳志のマイページ</header>
+      <div className="home-content wrapper">
+        <p className="header">kenshi's photo library</p>
+      </div>
+      </div>
       <div>
         <img src={Icon} alt="アイコン" className="icon" />
         <p className="name">岩崎 拳志</p>
