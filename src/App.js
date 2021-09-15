@@ -15,7 +15,7 @@ function App() {
       </div>
       </div>
       <div>
-        <p className="profile">マイプロフィール</p>
+        <p className="profile">プロフィール</p>
       </div>
       <div>
         <img src={Icon} alt="アイコン" className="icon" />
