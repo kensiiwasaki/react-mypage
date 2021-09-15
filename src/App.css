@@ -4,6 +4,7 @@
   animation-name: header;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  
 }
 @keyframes header {
   0% {
