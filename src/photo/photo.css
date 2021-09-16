@@ -3,4 +3,5 @@ img {
     height: 80px;
     text-align: center;
     display: flex;
+    flex-direction: row;
 }

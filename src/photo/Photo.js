@@ -7,8 +7,8 @@ import './photo.css';
 function Photo() {
     return(
     <body>
-        <div>
             <p>photo library</p>
+        <div className="container">
             <img src={photo1} alt="夜景" />
             <img src={photo2} alt="夕日" />
             <img src={photo3} alt="エモい" />
