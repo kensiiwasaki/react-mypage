@@ -248,3 +248,6 @@ footer {
     transform: translateY(0px);
   }
 }
+.link2:hover{
+  box-shadow: none;
+}
