@@ -2,8 +2,10 @@ import React from 'react';
 import photo1 from './001.jpg';
 import photo2 from './002.JPG';
 import photo3 from './003.jpg';
+import './photo.css';
 
 function Photo() {
+    return(
     <body>
         <div>
             <p>photo library</p>
@@ -12,6 +14,7 @@ function Photo() {
             <img scr={photo3} alt="エモい" />
         </div>
     </body>
+    );
 }
 
 export default Photo;
