@@ -13,6 +13,7 @@ function Language({view, setView}) {
             <li>CSS</li>
             <li>JavaScript</li>
           </ul>
+          <p className="closelanguage"><button onClick={closeLanguage}>閉じる</button></p>
         </div>
     );
   }else{

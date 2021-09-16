@@ -32,7 +32,7 @@ li {
     padding: 10px;
     font-weight: bold;
     animation-name: li;
-    animation-duration: 4.5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 @keyframes li {
@@ -44,4 +44,15 @@ li {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.closelanguage {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    animation-name: li;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    user-select: none;
 }

@@ -32,8 +32,8 @@ function App() {
         <Photo />
       </div>
       <div>
-      <h1><button onClick={() => setView(true)}>開発言語</button></h1>
-        <Language />
+      <h1><button onClick={() => setView(true)} className="view">開発言語</button></h1>
+        <Language view={view} setView={setView} />
       </div>
       <footer>
         <a className="link1" href="https://www.instagram.com/kenshidayoo">instagram</a>

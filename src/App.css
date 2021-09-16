@@ -183,6 +183,11 @@ body {
   }
 }
 
+.view {
+  cursor: pointer;
+  user-select: none;
+}
+
 footer {
   padding: 10px;
   background-color: rgb(155, 224, 224);
