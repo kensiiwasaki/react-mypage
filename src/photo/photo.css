@@ -1,7 +1,16 @@
-img {
-    width: 100px;
-    height: 80px;
-    text-align: center;
+.library {
+    background-color: rgb(155, 224, 224);
+    padding: 10px;
+}
+
+.container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
 }
