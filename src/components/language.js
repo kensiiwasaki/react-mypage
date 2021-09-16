@@ -1,10 +1,13 @@
 import React from 'react';
 import "./language.css";
 
-function Language() {
+function Language({view, setView}) {
+  const closeLanguage = () => {
+    setView(false)
+  }
+  if(view){
     return (
         <div>
-            <h1>開発言語</h1>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -12,6 +15,9 @@ function Language() {
           </ul>
         </div>
     );
+  }else{
+    return null;
+  }
 }
 
 export default Language;

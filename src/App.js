@@ -8,6 +8,7 @@ import Photo from './photo/Photo';
 
 function App() {
   const [show, setShow] = useState(false)
+  const [view, setView] = useState(false)
   return (
     <body>
       <div id="home" className="big-bg">
@@ -31,6 +32,7 @@ function App() {
         <Photo />
       </div>
       <div>
+      <h1><button onClick={() => setView(true)}>開発言語</button></h1>
         <Language />
       </div>
       <footer>
