@@ -23,3 +23,7 @@ img {
     animation-duration: 3.5s;
     animation-fill-mode: forwards;
 }
+
+.container > img:hover {
+    width: 500px;
+}

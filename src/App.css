@@ -211,6 +211,7 @@ footer {
   align-items: center;
   display: flex;
   justify-content: center;
+  box-shadow: 0 10px 25px 0 rgb(0, 0, 0, .5);
 }
 
 .link1 {
@@ -227,6 +228,9 @@ footer {
     opacity: 1;
     transform: translateY(0px);
   }
+}
+.link1:hover{
+  box-shadow: none;
 }
 
 .link2 {
