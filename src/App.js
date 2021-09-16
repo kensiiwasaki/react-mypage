@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Icon from './IMG_2580.jpg';
 import Language from './components/language';
 
+
 function App() {
   const [show, setShow] = useState(false)
   return (
@@ -25,6 +26,9 @@ function App() {
       <div className="modal">
         <button className="btn" onClick={() => setShow(true)}>more</button>
         <Modal show={show} setShow={setShow}  />
+      </div>
+      <div>
+        <Photo />
       </div>
       <div>
         <Language />
