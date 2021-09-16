@@ -9,9 +9,9 @@ function Photo() {
     <body>
         <div>
             <p>photo library</p>
-            <img scr={photo1} alt="夜景" />
-            <img scr={photo2} alt="夕日" />
-            <img scr={photo3} alt="エモい" />
+            <img src={photo1} alt="夜景" />
+            <img src={photo2} alt="夕日" />
+            <img src={photo3} alt="エモい" />
         </div>
     </body>
     );

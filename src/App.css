@@ -69,7 +69,6 @@ body {
   display: flex;
   justify-content: center;
   margin: auto;
-  opacity: 0;
   animation-name: icon;
   animation-duration: 2s;
   animation-fill-mode: forwards;
