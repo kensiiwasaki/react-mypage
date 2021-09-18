@@ -72,7 +72,6 @@ body {
   animation-name: icon;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  
 }
 @keyframes icon {
   0% {
