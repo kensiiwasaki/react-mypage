@@ -29,6 +29,10 @@ function App() {
         <Modal show={show} setShow={setShow}  />
       </div>
       <div>
+        <form>
+        </form>
+      </div>
+      <div>
         <Photo />
       </div>
       <div>
