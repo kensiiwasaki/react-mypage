@@ -1,12 +1,8 @@
-improt React, { useState } from 'react';
+import React, { useState } from 'react';
 
 function TodoList() {
 
     const initialState = [
-        {
-            task: 'Learn vue.js',
-            isCompleted: false
-        },
     ]
 
     const [todos, setTodo] = useState(initialState);
@@ -20,11 +16,11 @@ function TodoList() {
     const handleSubmit = (event) => {
         event.preventDefault()
         if(task === '')return
-        setTodo(todos => [...todos,{ task, isCompleted: faluse}])
+        setTodo(todos => [...todos,{ task, isCompleted: false}])
         setTask('')
     }
 
-    const handleRemoneTask = index => {
+    const handleRemoveTask = index => {
         const newTodos = [...todos]
         newTodos.splice(index,1)
         setTodo(newTodos)
@@ -38,8 +34,8 @@ function TodoList() {
                 placeholder="Add New Task" onChange={handleNewTask} />
             </form>
             <ul>
-                { todos.map((todo, ndex) => ( 
-                <li key={ index }>{ todo.task } <span onClick={ () => handleRemoveTask(index)}>X</span></li>
+                { todos.map((todo, index) => ( 
+                <li key={ index }>{ todo.task } <span onClick={ () => handleRemoveTask(index)}>✅</span></li>
                 ))}
             </ul>
         </div>
