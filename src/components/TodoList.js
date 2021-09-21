@@ -29,7 +29,7 @@ function TodoList() {
 
     return (
         <div>
-            <h1>MEM</h1>
+            <h1>MEMO</h1>
             <form onSubmit={ handleSubmit } className="form">
                 memo : <input value={ task }
                 placeholder="メモ" onChange={handleNewTask} />
