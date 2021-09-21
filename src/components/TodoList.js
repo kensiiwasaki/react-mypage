@@ -29,10 +29,10 @@ function TodoList() {
 
     return (
         <div>
-            <h1>ToDo List</h1>
+            <h1>MEM</h1>
             <form onSubmit={ handleSubmit } className="form">
-                Add Task : <input value={ task }
-                placeholder="Add New Task" onChange={handleNewTask} />
+                memo : <input value={ task }
+                placeholder="メモ" onChange={handleNewTask} />
             </form>
             <ul>
                 { todos.map((todo, index) => ( 
