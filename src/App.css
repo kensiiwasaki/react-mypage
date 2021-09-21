@@ -166,6 +166,12 @@ body {
   user-select: none;
 }
 
+.form {
+  animation-name: furigana;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
 .btn {
   cursor: pointer;
   margin-bottom: 15px;

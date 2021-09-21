@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../App.css';
 
 function TodoList() {
 
@@ -29,7 +30,7 @@ function TodoList() {
     return (
         <div>
             <h1>ToDo List</h1>
-            <form onSubmit={ handleSubmit }>
+            <form onSubmit={ handleSubmit } className="form">
                 Add Task : <input value={ task }
                 placeholder="Add New Task" onChange={handleNewTask} />
             </form>
