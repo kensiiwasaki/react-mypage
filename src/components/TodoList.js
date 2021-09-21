@@ -29,7 +29,7 @@ function TodoList() {
     return (
         <div>
             <h1>ToDo List</h1>
-            <form onSubmit={ handleSubmit}>
+            <form onSubmit={ handleSubmit }>
                 Add Task : <input value={ task }
                 placeholder="Add New Task" onChange={handleNewTask} />
             </form>
