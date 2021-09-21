@@ -47,6 +47,7 @@ body {
   padding: 10px;
   margin-top: 0;
   text-align: center;
+  font-weight: bold;
   animation-name: profile;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
