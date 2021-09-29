@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 
+//モーダルウィンドウの追加
+
 function Modal({show, setShow}) {
     const closeModal = () => {
         setShow(false)
