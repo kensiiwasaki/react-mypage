@@ -1,6 +1,8 @@
 import React from 'react';
 import "./language.css";
 
+//開発言語の追加
+
 function Language({view, setView}) {
   const closeLanguage = () => {
     setView(false)
