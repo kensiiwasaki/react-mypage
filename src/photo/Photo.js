@@ -4,6 +4,8 @@ import photo2 from './002.JPG';
 import photo3 from './003.jpg';
 import './photo.css';
 
+//写真の追加
+
 function Photo() {
     return(
     <body>

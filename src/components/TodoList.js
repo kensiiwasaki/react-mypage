@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css';
 
+//MEMOを追加
+
 function TodoList() {
 
     const initialState = [
