@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import '../App.css';
 
-function saveDate() {
-    const lists = document.querySelector("li");
-    let toList = [];
+// function saveDate() {
+//     const lists = document.querySelector("li");
+//     let toList = [];
 
-    lists.forEach(list => {
-        toList.push(list.innerText);
-    });
-    localStorage.setItem("toList", JSON.stringify(toList));
-}
+//     lists.forEach(list => {
+//         toList.push(list.innerText);
+//     });
+//     localStorage.setItem("toList", JSON.stringify(toList));
+// }
 
 //MEMOを追加
 
@@ -31,7 +31,7 @@ function TodoList() {
         if(task === '')return
         setTodo(todos => [...todos,{ task, isCompleted: false}])
         setTask('')
-        saveDate();
+        // saveDate();
     }
 
     const handleRemoveTask = index => {
