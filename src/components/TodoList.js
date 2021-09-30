@@ -1,6 +1,16 @@
 import React, { useState } from 'react';
 import '../App.css';
 
+function saveDate() {
+    const lists = document.querySelector("li");
+    let toList = [];
+
+    lists.forEach(list => {
+        toList.push(list.innerText);
+    });
+    localStorage.setItem("toList", JSON.stringify(toList));
+}
+
 //MEMOを追加
 
 function TodoList() {
@@ -21,6 +31,7 @@ function TodoList() {
         if(task === '')return
         setTodo(todos => [...todos,{ task, isCompleted: false}])
         setTask('')
+        saveDate();
     }
 
     const handleRemoveTask = index => {
@@ -28,6 +39,7 @@ function TodoList() {
         newTodos.splice(index,1)
         setTodo(newTodos)
     }
+
 
     return (
         <div>
