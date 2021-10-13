@@ -30,7 +30,7 @@ function App() {
         <Modal show={show} setShow={setShow}  />
       </div>
       <div>
-        <TodoList />
+        {/* <TodoList /> */}
       </div>
       <div>
         <Photo />
