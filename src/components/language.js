@@ -1,24 +1,26 @@
-import React from 'react';
+import React from "react";
 import "./language.css";
 
 //開発言語の追加
 
-function Language({view, setView}) {
+function Language({ view, setView }) {
   const closeLanguage = () => {
-    setView(false)
-  }
-  if(view){
+    setView(false);
+  };
+  if (view) {
     return (
-        <div>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
-          <p className="closelanguage"><button onClick={closeLanguage}>閉じる</button></p>
-        </div>
+      <div>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <p className="closelanguage">
+          <button onClick={closeLanguage}>閉じる</button>
+        </p>
+      </div>
     );
-  }else{
+  } else {
     return null;
   }
 }

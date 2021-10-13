@@ -34,7 +34,7 @@
   margin: 10px 0 42px;
   padding-top: 120px;
   font-size: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 body {
@@ -140,7 +140,6 @@ body {
   justify-content: center;
 }
 
-
 #content {
   z-index: 1;
   width: 50%;
@@ -215,7 +214,8 @@ footer {
   }
 }
 
-.link1, .link2 {
+.link1,
+.link2 {
   color: rgb(241, 234, 225);
   font-size: 18px;
   cursor: pointer;
@@ -225,7 +225,7 @@ footer {
   align-items: center;
   display: flex;
   justify-content: center;
-  box-shadow: 5px 5px 5px 5px  rgb(0, 0, 0, .7);
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.7);
 }
 
 .link1 {
@@ -243,7 +243,7 @@ footer {
     transform: translateY(0px);
   }
 }
-.link1:hover{
+.link1:hover {
   box-shadow: none;
 }
 
@@ -262,7 +262,7 @@ footer {
     transform: translateY(0px);
   }
 }
-.link2:hover{
+.link2:hover {
   box-shadow: none;
 }
 
