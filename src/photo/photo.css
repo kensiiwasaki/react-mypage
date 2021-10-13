@@ -1,29 +1,37 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    animation-name: btn;
-    animation-duration: 3.5s;
-    animation-fill-mode: forwards;
+  display: flex;
+  align-items: center;
+  animation-name: btn;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+  margin-bottom: 40px;
 }
 
 img {
-    width: 300px;
-    text-align: center;
-    margin: 10px;
-    animation-name: btn;
-    animation-duration: 3.5s;
-    animation-fill-mode: forwards;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  animation-name: btn;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
 }
 
 .container > img:hover {
-    width: 500px;
-    transition: 2s;
+  width: 500px;
+  transition: 2s;
 }
 @media (min-width: 1000px) {
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
 }
