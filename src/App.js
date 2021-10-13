@@ -19,20 +19,20 @@ function App() {
       <div>
         <p className="profile">プロフィール</p>
       </div>
-      <div>
+      <div className="profileContainer">
         <div className="iconContainer">
           <img src={Icon} alt="アイコン" className="icon" />
         </div>
         <div className="nameContainer">
           <p className="name">岩崎 拳志</p>
           <p className="furigana">iwasaki kenshi</p>
-        </div>
-      </div>
       <div className="modal">
         <button className="btn" onClick={() => setShow(true)}>
           more
         </button>
         <Modal show={show} setShow={setShow} />
+      </div>
+        </div>
       </div>
       <div>{/* <TodoList /> */}</div>
       <div>

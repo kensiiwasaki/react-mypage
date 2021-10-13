@@ -265,3 +265,10 @@ footer {
 .link2:hover{
   box-shadow: none;
 }
+
+@media (min-width: 1000px) {
+  .profileContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
