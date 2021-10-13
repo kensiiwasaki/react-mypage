@@ -6,6 +6,9 @@
   animation-fill-mode: forwards;
   margin-bottom: 40px;
 }
+body > .container {
+    margin-top: 40px;
+}
 
 img {
   width: 300px;
