@@ -20,7 +20,7 @@ function Photo() {
         </div>
         <div className="container">
             <img src={photo4} alt="夜景" />
-            <img src={photo5} alt="夕日" />
+            <img src={photo5} alt="夜景" />
             <img src={photo6} alt="エモい" />
         </div>
     </body>
