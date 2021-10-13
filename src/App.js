@@ -26,12 +26,12 @@ function App() {
         <div className="nameContainer">
           <p className="name">岩崎 拳志</p>
           <p className="furigana">iwasaki kenshi</p>
-      <div className="modal">
-        <button className="btn" onClick={() => setShow(true)}>
-          more
-        </button>
-        <Modal show={show} setShow={setShow} />
-      </div>
+          <div className="modal">
+            <button className="btn" onClick={() => setShow(true)}>
+              more
+            </button>
+            <Modal show={show} setShow={setShow} />
+          </div>
         </div>
       </div>
       <div>{/* <TodoList /> */}</div>

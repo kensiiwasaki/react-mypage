@@ -270,5 +270,19 @@ footer {
   .profileContainer {
     display: flex;
     justify-content: center;
+    margin: 60px 0;
+  }
+
+  .icon {
+    margin-right: 70px;
+  }
+
+  .nameContainer {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
   }
 }
