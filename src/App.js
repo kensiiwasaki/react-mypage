@@ -4,7 +4,6 @@ import Modal from './components/modal'
 import { useState } from 'react';
 import Icon from './IMG_2580.jpg';
 import Language from './components/language';
-import TodoList from './components/TodoList';
 import Photo from './photo/Photo';
 
 function App() {
