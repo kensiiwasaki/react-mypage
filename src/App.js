@@ -5,6 +5,7 @@ import { useState } from "react";
 import Icon from "./IMG_2580.jpg";
 import Language from "./components/language";
 import Photo from "./photo/Photo";
+import TodoList from './components/TodoList';
 
 function App() {
   const [show, setShow] = useState(false);
@@ -17,7 +18,7 @@ function App() {
         </div>
       </div>
       <div>
-        <p className="profile">プロフィール</p>
+        <p className="profile">profile</p>
       </div>
       <div className="profileContainer">
         <div className="iconContainer">
@@ -34,10 +35,11 @@ function App() {
           </div>
         </div>
       </div>
-      <div>{/* <TodoList /> */}</div>
+      
       <div>
         <Photo />
       </div>
+      <div><TodoList /></div>
       <div>
         <h1>
           <button onClick={() => setView(true)} className="view">

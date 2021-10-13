@@ -1,18 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
 
-// function saveDate() {
-//     const lists = document.querySelector("li");
-//     let toList = [];
-
-//     lists.forEach(list => {
-//         toList.push(list.innerText);
-//     });
-//     localStorage.setItem("toList", JSON.stringify(toList));
-// }
-
-//MEMOを追加
-
 function TodoList() {
 
     const initialState = [
@@ -31,7 +19,6 @@ function TodoList() {
         if(task === '')return
         setTodo(todos => [...todos,{ task, isCompleted: false}])
         setTask('')
-        // saveDate();
     }
 
     const handleRemoveTask = index => {
@@ -43,10 +30,10 @@ function TodoList() {
 
     return (
         <div>
-            <h1>MEMO</h1>
+            <h1>comment</h1>
             <form onSubmit={ handleSubmit } className="form">
-                memo : <input value={ task }
-                placeholder="メモ" onChange={handleNewTask} />
+                comment : <input value={ task }
+                placeholder="コメント" onChange={handleNewTask} />
             </form>
             <ul>
                 { todos.map((todo, index) => ( 
